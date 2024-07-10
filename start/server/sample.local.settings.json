@@ -1,11 +1,11 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=amitkustorageaccount;AccountKey=R+XQSD6sicSDolq7jeltRp4W3CLxdWFI4Tj3I9jEAC2nGoZ0fSupRAvpdDR4Mxs9b6BI3Kbu6c4/+AStwJ5Y8w==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsStorage": "<STORAGE_CONNECTION_STRING>",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
-    "COSMOSDB_CONNECTION_STRING": "AccountEndpoint=https://amitkucosmosdbaccount.documents.azure.com:443/;AccountKey=I72Ld2h1djQegvwkF43NHhHFu03obHDfuI77ZCskxiKUuyPlDKgx1XxU0hXAZ2Fanhj1FARGyLIMACDb3cHMew==;",
-    "SIGNALR_CONNECTION_STRING":"https://msl-sigr-signalrb3634762f1.service.signalr.net;AccessKey=TTe2oO07diH9F4qDTo2YEAJtpnEal8ItXKyA+qLd5/E=;Version=1.0;"
+    "COSMOSDB_CONNECTION_STRING": "<COSMOSDB_CONNECTION_STRING>",
+    "SIGNALR_CONNECTION_STRING":"<SIGNALR_CONNECTION_STRING>"
   },
   "Host" : {
     "LocalHttpPort": 7071,

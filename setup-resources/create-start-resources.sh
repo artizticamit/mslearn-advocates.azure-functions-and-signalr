@@ -61,14 +61,16 @@ az storage account create \
   --name $STORAGE_ACCOUNT_NAME \
   --resource-group $RESOURCE_GROUP_NAME \
   --kind StorageV2 \
-  --sku Standard_LRS
+  --sku Standard_LRS \
+  --location westus
 
 printf "Creating CosmosDB Account\n"
 
 az cosmosdb create  \
   --subscription "$SUBSCRIPTION_NAME" \
   --name $COMSOSDB_NAME \
-  --resource-group $RESOURCE_GROUP_NAME
+  --resource-group $RESOURCE_GROUP_NAME \
+  --location centralus
 
 printf "Get storage connection string\n"
 
